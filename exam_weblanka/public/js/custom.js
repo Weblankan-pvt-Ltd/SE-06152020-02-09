@@ -23,6 +23,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Customer Added Successful...", "success");
@@ -42,6 +43,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Customer Updated Successful...", "success");
@@ -61,6 +63,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Type Added Successful...", "success");
@@ -80,6 +83,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Type Updated Successful...", "success");
@@ -99,6 +103,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Type Added Successful...", "success");
@@ -118,6 +123,7 @@ $(document).on('click','.btn-customer',function(e){
         data:$("#customer-form").serialize(),
         success:function(response){
             if(response.error){
+                swal("OOPS!", "Something went wrong please check form errors.", "error");
                 // Appending Errors Fields
             }else{
                 swal("Good job!", "Type Updated Successful...", "success");

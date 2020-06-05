@@ -18,7 +18,7 @@
 
             <div class="col-md-9 ">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Customers</div>
+                    <div class="panel-heading">Products</div>
 
                     <div class="panel-body">
                         <form class="form-horizontal" method="GET" >

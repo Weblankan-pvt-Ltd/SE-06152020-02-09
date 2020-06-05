@@ -39,7 +39,11 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        try{
+            //Logic Goes Here
+        }catch (\Exception $ex){
+            Log::error('Error : '.$ex);
+        }
     }
 
     /**
@@ -61,7 +65,11 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+        try{
+            //Logic Goes Here
+        }catch (\Exception $ex){
+            Log::error('Error : '.$ex);
+        }
     }
 
     /**
@@ -72,7 +80,11 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        try{
+            //Logic Goes Here
+        }catch (\Exception $ex){
+            Log::error('Error : '.$ex);
+        }
     }
 
     /**
@@ -84,7 +96,11 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        try{
+            //Logic Goes Here
+        }catch (\Exception $ex){
+            Log::error('Error : '.$ex);
+        }
     }
 
     /**
@@ -95,6 +111,10 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //
+        try{
+            //Logic Goes Here
+        }catch (\Exception $ex){
+            Log::error('Error : '.$ex);
+        }
     }
 }
